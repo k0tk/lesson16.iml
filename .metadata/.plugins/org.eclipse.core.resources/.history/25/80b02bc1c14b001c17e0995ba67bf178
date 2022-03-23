@@ -1,0 +1,122 @@
+package cycles;
+
+public class ForTester {
+
+	public static void main(String[] args) {
+		// <initialization>- служит для обьявления переменных, область видимости которых ограничавиается площадью боди. Выполняется лишь единожды!
+		//<condition> - условия выполнения боди цикла, если условие - тру, выполняется, else - фолс; (всегда boolean);
+		//<operator> - любая вспомогательная операция (обычно увелечение или уменьшение счетчиков, влияющих на кондишин. Затем будет происходить переход в расчет кондишн. В случае отсутствия оператора, происходит расчет кондишна; если кондишн тру
+		//<body> - тело цикла; после окончания цикла тела, сработает позитиция 4;
+		//          1                 2          4          3
+		// for (<initialization>;<condition>;<operator>){<body>}
+
+		System.out.println(" \nTask #1");
+
+		for(int i = 0, bound = 150; i <= bound; i++) { // i++ <=> i = i + 1
+			if(i == bound) {
+				System.out.print(i + ". ");
+			}else {
+			System.out.print(i + ", ");
+		  }			
+		}
+		
+		System.out.println(" \nTask #2");
+		
+		for(int i = 100, bound = 1; i >= bound; i--) { // i++ <=> i = i + 1
+			if(i == bound) {
+				System.out.print(i + ". ");
+			}else {
+			System.out.print(i + ", ");
+		  }			
+		}
+
+		System.out.println(" \nTask #3");
+
+		for(int i = 0, bound = -25; i >= bound; i--) { // i++ <=> i = i + 1
+			if(i == bound) {
+				System.out.print(i + ". ");
+			}else {
+			System.out.print(i + ", ");
+		  }			
+		}
+		
+		System.out.println(" \nTask #4");
+
+		for(int i = 0, j = 0; i < 25; i++) { // i++ <=> i = i + 1
+			j += 2;
+			System.out.print(j + " ");
+		  }			
+		
+		System.out.println(" \nTask #5");
+
+		for(int i = 0, j = 0; i < 40; i++) { // i++ <=> i = i + 1
+			j += 3;
+			System.out.print(j + " ");
+		  }			
+		
+		System.out.println(" \nTask #6");
+
+		
+		for(int i = 0, j = 0; i < 30; i++) { // i++ <=> i = i + 1
+			j += 10;
+			System.out.print(j + " ");
+		  }			
+		
+		System.out.println(" \nTask #7");
+
+//		for(int i = 1, j = 0, z = 1; i < 100; i++) { // i++ <=> i = i + 1
+//			j += 2;
+//			z -= 2;
+//			System.out.print(z + " ");
+//			System.out.print(j + " ");
+        for (int i = 1; i <= 100; i++) {
+        	
+          if(i % 2 == 0) { //проверка на четность ( на нечетность надо "== 1")
+        	  System.out.print( i + " ");
+          }else {
+		System.out.print(-1*i + " ");
+        
+		}		
+	}
+ 
+        System.out.println(" \nTask #7.1");
+        
+        for (int i = 0, x = 0; i < 50; i++) {
+            if(i % 2 == 0) {
+          	  System.out.print(x);
+            }else {
+  		System.out.print(-1*x);
+        }		
+            if(i == 49 ) {
+            	System.out.print(".");
+            }else {
+            	System.out.print(", ");
+                x += 5;
+            }
+        
+  	}
+        
+         System.out.println(" \nTask #7.1");
+        
+        for (int i = 0, x = 0; i < 50; i++) {
+            if(i % 2 == 0) {
+          	  System.out.print(x);
+            }else {
+  		System.out.print(-1*x);
+        }		
+            if(i == 49 ) {
+            	System.out.print(".");
+            }else {
+            	System.out.print(", ");
+                x += 5;
+            }
+        
+  	}
+        
+        
+        
+        
+        
+        
+	}
+}

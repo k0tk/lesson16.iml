@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="util.ArraysUtil"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="by.itstep.model.Car"/>
+<fullyQualifiedTypeName name="by.itstep.model.Cat"/>
+<fullyQualifiedTypeName name="by.itstep.client.Company"/>
+<fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+<fullyQualifiedTypeName name="by.itstep.model.Employee"/>
+<fullyQualifiedTypeName name="by.itstep.model.Person"/>
+<fullyQualifiedTypeName name="by.itstep.model.Company"/>
+<fullyQualifiedTypeName name="model.animals.Mammal"/>
+<fullyQualifiedTypeName name="model.animals.Bird"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="by.itstep.client.main"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.SenniorDeveloper"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.JuniorDeveloper"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.MiddleDeveloper"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.Developer"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.TestDeveloper"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.JuniorTestDeveloper"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.Manager"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.OrganizationManager"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.Employee"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.Teacher"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.Student"/>
+<fullyQualifiedTypeName name="by.itstep.model.inheritance.empls.Person"/>
+<fullyQualifiedTypeName name="javax.swing.JTextField"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.JButton"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+</qualifiedTypeNameHistroy>

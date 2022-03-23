@@ -1,0 +1,22 @@
+package cycles;
+
+public class ForTester {
+
+	public static void main(String[] args) {
+		
+		// <initialization>- служит для обьявления переменных, область видимости которых ограничавиается площадью боди
+		//<condition> -
+		//<operator> -
+		//<body> -
+		//        1 
+		// for (<initialization>;<condition>;<operator>){<body>}
+		for(;;) {
+			
+			
+			
+		}
+		
+		
+		
+	}
+}

@@ -1,0 +1,17 @@
+package cycles;
+
+public class ForTester {
+
+	public static void main(String[] args) {
+		
+		// for (<initialization>;<condition>;<operator>){<body>}
+		for(;;) {
+			
+			
+			
+		}
+		
+		
+		
+	}
+}

@@ -1,0 +1,36 @@
+package cycles;
+
+public class ForTester {
+
+	public static void main(String[] args) {
+		// <initialization>- служит для обьявления переменных, область видимости которых ограничавиается площадью боди. Выполняется лишь единожды!
+		//<condition> - условия выполнения боди цикла, если условие - тру, выполняется, else - фолс; (всегда boolean);
+		//<operator> - любая вспомогательная операция (обычно увелечение или уменьшение счетчиков, влияющих на кондишин. Затем будет происходить переход в расчет кондишн. В случае отсутствия оператора, происходит расчет кондишна; если кондишн тру
+		//<body> - тело цикла; после окончания цикла тела, сработает позитиция 4;
+		//          1                 2          4          3
+		// for (<initialization>;<condition>;<operator>){<body>}
+		
+		System.out.println(" Task #1");
+
+		for( int i = 0, bound = 150; i < bound; i++) { // i++ <=> i = i + 1
+			if(i == bound) {
+				System.out.print(i + ". ");
+			}else {
+			System.out.print(i + ", ");
+		  }			
+		}
+		
+		System.out.println(" Task #2");
+		
+		for( int i = 0, bound = 150; i < bound; i++) { // i++ <=> i = i + 1
+			if(i == bound) {
+				System.out.print(i + ". ");
+			}else {
+			System.out.print(i + ", ");
+		  }			
+		}
+		
+		
+		
+	}
+}
